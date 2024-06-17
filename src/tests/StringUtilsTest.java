@@ -8,7 +8,7 @@ import static metiers.StringUtils.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class StringUtilsTest {
-    
+
     @Test
     void testFizzBuzz() {
         Assertions.assertEquals("0", fizzBuzz(0));
@@ -81,7 +81,6 @@ class StringUtilsTest {
 
         assertEquals("aaaceeeeiiiooouuuuy   ", toAccent("àâäçéèêëìîïòôöùûüµÿ'-_"));
     }
-
 
     @Test
     void testSuprExtention() {
