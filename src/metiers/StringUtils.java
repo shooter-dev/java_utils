@@ -1,6 +1,7 @@
 package metiers;
 
 public class StringUtils {
+
     public static String fizzBuzz(int value) {
         if (value == 0) return "0";
         if (value % 15 == 0) return "FizzBuzz";
@@ -9,12 +10,6 @@ public class StringUtils {
         return String.valueOf(value);
     }
 
-    /**
-     * Mais un nom aux prope
-     *
-     * @param chaine
-     * @return un non aux prope
-     */
     public static String toNomPropre(String chaine) {
         if (!chaine.isEmpty()) {
             StringBuilder resulta = new StringBuilder();
